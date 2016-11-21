@@ -74,6 +74,17 @@ public class MainActivity extends AppCompatActivity implements TimeRangePicker.O
 
 ## Include in your project
 
-Just add this line in your build.gradle - dependencies
+Just add this line in your build.gradle - dependencies.
 
     compile 'matt.dev:time-range-picker:1'
+
+
+Maven
+````    
+    <dependency>
+        <groupId>matt.dev</groupId>
+        <artifactId>time-range-picker</artifactId>
+        <version>1</version>
+        <type>pom</type>
+    </dependency>
+````
