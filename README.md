@@ -71,4 +71,9 @@ public class MainActivity extends AppCompatActivity implements TimeRangePicker.O
     }
 }
 
+## Include in your project
+
+Just add this line in your build.gradle - dependencies
+
+    compile 'com.kwoak.dev.timerangepicker:time-range-picker:0.1.3'
 ```
