@@ -70,10 +70,10 @@ public class MainActivity extends AppCompatActivity implements TimeRangePicker.O
         Log.d("TAG", "onTimeChanged: " + range + " " + timePicker.getCurrentHour() + ":" + timePicker.getCurrentMinute());
     }
 }
+```
 
 ## Include in your project
 
 Just add this line in your build.gradle - dependencies
 
-    compile 'com.kwoak.dev.timerangepicker:time-range-picker:0.1.3'
-```
+    compile 'matt.dev:time-range-picker:1'
